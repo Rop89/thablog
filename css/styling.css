@@ -1,0 +1,175 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+.menu-container img{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+header nav {
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.menu-container{
+  display: flex;
+  flex-direction: row;
+}
+.menu-navigation {
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+#nav-class{
+  padding-top: 30px;
+}
+
+header nav ul.menu-navigation li a {
+  display: block;
+  padding: 0 16px;
+  color: white;
+  font-size: 14px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  text-decoration:none;
+}
+
+.menu-container a:hover{
+  transform: scale(1.2);
+}
+
+a:link{
+    text-decoration:none;
+    color:white;
+}
+
+/* Main container */
+
+.latest-post{
+  background: #E3E3E3;
+  border-radius: 10px;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 50px;
+  margin-top: 180px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.latest-post img {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.latest-post p,.latest-post h2{
+  margin-top: 30px;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.main-container img{
+  height:250px;
+  width:300px;
+  image-orientation: from-image;
+}
+
+.main-container p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Blog Posts */
+
+.blog-posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.blog-posts img{
+  height:350px;
+  width:400px;
+}
+
+.blog-post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E3E3E3;
+  border-radius: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/*Footer*/
+
+footer{
+  background: black;
+  margin-top: 100px;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  color:white;
+  font-size: 15px;
+}
+
+.footer-navigation{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-navigation a:hover{
+  transform: scale(1.2);
+}
+.footer ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+
+/*Rights*/
+
+.rights{
+  padding-top: 30px;
+  text-align: center;
+  color:white;
+  font-size: 12px;
+}
