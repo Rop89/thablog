@@ -1,5 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #191b1f;
+  background: ;
+  color: white;
 }
 
 /* Header */
@@ -56,45 +59,54 @@ a:link{
 
 /* Main container */
 
+/*Container-1*/
+
+.container-1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.main-post-pic{
+  margin-right: 10px;
+}
 .title{
   display: flex;
   justify-content: center;
   margin-top: 200px;
 }
-.lucky{
-  padding-left:10px;
-  margin-top: 5px;
-}
+
 .latest-post{
-  background: #E3E3E3;
-  border-radius: 10px;
-  padding-right: 250px;
-  padding-left: 250px;
-  padding-bottom: 50px;
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+.latest-post-img{
+  height: 550px;
+  width: 750px;
+  margin-top: 20px;
 }
 
-.latest-post img {
-  height: 300px;
-  width: 350px;
-  margin-top: 20px;
+.post{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
 }
 
 .latest-post p,.latest-post h2{
   margin-top: 30px;
 }
+
+.latest-post p{
+  width:500px;
+  word-wrap: break-word;
+}
 .latest-post h1{
   text-decoration: underline;
 }
 
-.post{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/*Main-posts*/
 
 .main-posts-container{
   display: flex;
@@ -107,16 +119,33 @@ a:link{
 }
 
 .main-posts-container img{
-  height:250px;
-  width:300px;
+  height:350px;
+  width:400px;
   image-orientation: from-image;
 }
 
-.main-posts-container h2{
+.post-intro-1,.post-intro-2,.post-intro-3{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+/*Bottom-Container*/
+
+.bottom-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+
+/*Container-3*/
+
+.container-3{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 /*Blog Posts */
 
@@ -135,12 +164,10 @@ a:link{
 .post-1,.post-2,.post-3{
   display: flex;
   justify-content: center;
+  margin-left: 150px;
   border-bottom: 1px solid #E3E3E3;
 }
 
-.post-1,.post-2,.post-3 p{
-  
-}
 
 .blog-post{
   display: flex;
@@ -172,12 +199,44 @@ a:link{
   color: black;
   cursor: pointer;
 }
-
 #date{
   font-size: 12px;
 }
 
+/*Mailchimp form*/
+#mc_embed_signup{
+  background:#fff; 
+  clear:left; 
+  font:14px;
+}
 
+#mce-EMAIL{
+  padding: 10px;
+}
+#mc_embed_signup .button {  
+  clear: both;
+  background-color: #E3E3E3;
+  border: 0 none;
+  border-radius: 4px;
+  transition: all 0.23s ease-in-out 0s;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 5px 10px 0;
+  padding: 0 22px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: auto;
+}
+  #mc_embed_signup .button:hover{
+    background-color: grey;
+  }
 
 
 
@@ -214,7 +273,7 @@ footer{
 /*Rights*/
 
 .rights{
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
   color:white;
   font-size: 12px;
