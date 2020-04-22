@@ -159,8 +159,12 @@ a:link{
 /*Container-3*/
 
 .container-3{
-  padding-left: 40px;
-  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 140px;
+  padding-right: 60px;
+  margin-bottom: 650px;
 }
 
 
@@ -253,6 +257,10 @@ a:link{
   }
 
 /*Top-blog-articles*/
+
+.top-blog-articles{
+  border-bottom: 2px solid #d5c8bb ;
+}
 
 .top-blog-article-1{
   display: flex;
