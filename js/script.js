@@ -1,3 +1,21 @@
+/*Navigation bar */
+
+//Scroll to top background white 
+
+/*var nav = document.getElementById("nav-menu")
+var letters = document.querySelectorAll("#nav-class > ul > li > a")
+
+window.onscroll = function () {
+  if (window.pageYOffset > 100) {
+    nav.style.background = "black"
+    letters.forEach((letter) => (letter.style.color = "white"))
+  } else {
+    nav.style.background = "#eaebeb"
+    letters.forEach((letter) => (letter.style.color = "black"))
+  }
+}*/
+
+
 /*Back to Top*/
 
 function scrollToTop(){
