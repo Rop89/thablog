@@ -2,18 +2,15 @@
 
 //Scroll to top background white 
 
-/*var nav = document.getElementById("nav-menu")
-var letters = document.querySelectorAll("#nav-class > ul > li > a")
+var nav = document.getElementById("nav-menu")
 
 window.onscroll = function () {
-  if (window.pageYOffset > 100) {
-    nav.style.background = "black"
-    letters.forEach((letter) => (letter.style.color = "white"))
+  if (window.pageYOffset > 110){
+    this.nav.classList.add("menu-container")      
   } else {
-    nav.style.background = "#eaebeb"
-    letters.forEach((letter) => (letter.style.color = "black"))
+    this.nav.classList.remove("menu-container") 
   }
-}*/
+}
 
 
 /*Back to Top*/
@@ -32,7 +29,6 @@ const newsletter = document.querySelector(".newsletter")
 link.addEventListener("click",toggleNewsletter)
 
 function toggleNewsletter(event){
-	console.log(event)
 	if(event.type === "click"){
 			event.preventDefault()
 	}
