@@ -10,7 +10,8 @@ html,body{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* Header */
@@ -419,7 +420,6 @@ footer{
 
 footer{
   margin-top: 10px;
- border: 1px solid red;
  }
 
 .footer{
@@ -441,6 +441,7 @@ footer{
 
 .rights{
   font-size: 10px;
+  padding-bottom:150px;
 }
 
  }
